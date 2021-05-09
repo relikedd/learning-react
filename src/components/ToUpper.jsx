@@ -16,9 +16,9 @@ const ToUpper = () => {
         <div>
             <h1>Texto a convertir</h1>
             <input type="text" onChange={(e) => setTexto(e.target.value)} />
-            <br/>
+            <br />
             <button onClick={toUpper}>Convertir a Mayusculas</button>
-            <br/>
+            <br />
             <button onClick={toLower}>Convertir a minusculas</button>
             <h1>{texto}</h1>
         </div>
